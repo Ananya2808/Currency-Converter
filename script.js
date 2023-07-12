@@ -10,7 +10,7 @@ currencies.forEach((currency) => {
   fromDropDown.add(option);
 });
 
-//Repeat same thing for the other dropdown
+//Repeat same for the other dropdown
 currencies.forEach((currency) => {
   const option = document.createElement("option");
   option.value = currency;
